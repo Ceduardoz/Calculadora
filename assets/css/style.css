@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --color1: #D7EEFA;
+    --color2: #c9c9c9;
+    --color3: #a4a3a3;
+
+    --fontDestaque: 'Open sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    background-color: var(--color3);
+    font-family: var(--fontDestaque);
+    line-height: 1.5em;
+}
+
+.container {
+    background-color: var(--color2);
+    width: 640px;
+    height: 600px;
+    margin: 15vh auto;
+    padding: 20px 30px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 6px var(--color2);
+    text-align: center;
+}
+
+.container h1 {
+    font-family: var(--fontDestaque);
+    font-size: 2em;
+    padding: 10px 0px;
+
+}
+
+.container input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.calculadora{
+    width: 400px;
+    display: flex;
+}
+
+.display {
+    width: 70px;
+    font-size: 2em;
+    text-align: right;
+    font-family: var(--fontDestaque);
+    font-weight: 600;
+    padding: 3px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #dfdfdf;
+    width: 100%;
+    height: 50px;
+    font-family: var(--fontDestaque);
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 16px ;
+    cursor: pointer;
+    margin: 3px 20px;
+    padding: 40px;
+    text-align: center;
+    line-height: 50%;
+}
+
+.btn:hover{
+    background-color: #a2a0a0;
+}
+
+.btn-eq {
+    background-color: rgb(99, 135, 244);
+}
+
+.btn-eq:hover {
+    background-color: royalblue;
+}
